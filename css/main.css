@@ -33,8 +33,14 @@ img {
   padding: .5em 1em .6em;
 }
 
-h1 {
-  padding: 1rem;
+.logo{
+  margin-bottom: 0;
+  margin-left: 0.5em;
+}
+
+.title {
+  margin: 0;
+  margin-left: 1em;
 }
 
 nav ul{
@@ -42,8 +48,28 @@ nav ul{
   padding: 0;
   margin: 0;
   display: flex;
+  top: 23px;
+  margin: 0 .4em;
 }
 
 nav li {
   margin: 0 .4em;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.middle {
+  text-align: center;
+  border-top: .2rem solid #e2e2e2;
+  border-bottom: .2rem solid #e2e2e2;
+}
+
+.japanese {
+  font-size: 2rem;
+}
+
+.life {
+  font-size: 1rem;
 }
