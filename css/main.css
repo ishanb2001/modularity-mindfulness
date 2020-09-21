@@ -73,3 +73,16 @@ ul {
 .life {
   font-size: 1rem;
 }
+
+.columns {
+  display: flex;
+  border-bottom: .2rem solid #e2e2e2;
+}
+
+.columns div {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+}
