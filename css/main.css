@@ -27,20 +27,35 @@ body {
   margin: 0;
 }
 
+header {
+  display: grid;
+}
+
+h1 {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
+
 img {
   display: block;
   width: 100%;
-  padding: .5em 1em .6em;
 }
 
-.logo{
+.logo {
+  font-size: 2rem;
   margin-bottom: 0;
   margin-left: 0.5em;
+  text-align: center;
 }
 
 .title {
+  font-size: 1.125rem;
   margin: 0;
   margin-left: 1em;
+  text-align: center;
 }
 
 nav ul{
@@ -50,10 +65,16 @@ nav ul{
   display: flex;
   top: 23px;
   margin: 0 .4em;
+  justify-content: center;
+  font-size: 1.125;
 }
 
 nav li {
   margin: 0 .4em;
+}
+
+a {
+  color: #3783a3;
 }
 
 ul {
@@ -62,27 +83,47 @@ ul {
 
 .middle {
   text-align: center;
-  border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
 }
 
 .japanese {
   font-size: 2rem;
+  margin: 1.5rem;
 }
 
 .life {
   font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .columns {
-  display: flex;
   border-bottom: .2rem solid #e2e2e2;
 }
 
-.columns div {
-  width: 50%;
+.btn {
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-color: #3783a3;
+  text-decoration: none;
+  color: #3783a3;
+  border: .2rem solid #3783a3;
+  display: flex;
+  padding: .5em 1em .6em;
+  margin-bottom: 1.5rem;
+
 }
 
+}
 footer {
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+h1 {
+  align-items: flex-start;
+}
+
+header {
+  align-items: center;
 }
