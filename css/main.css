@@ -171,5 +171,21 @@ footer {
   margin-bottom: -0.2rem;
 }
 
+.viewing {
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.gravel {
+  display: grid;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.symbol {
+  display: grid;
+  grid-row: 2;
+  grid-column: 3;
 }
 }
