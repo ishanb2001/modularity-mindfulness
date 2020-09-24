@@ -13,7 +13,8 @@ html {
 }
 
 *,
-*::before, *::after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -35,9 +36,9 @@ img {
 
 h2 {
   font-size: 1.5rem;
-   flex-direction: column;
-   margin: 0 0 1.5rem;
-   align-items: flex-start;
+  flex-direction: column;
+  margin: 0 0 1.5rem;
+  align-items: flex-start;
 }
 
 main {
@@ -58,19 +59,16 @@ article {
   flex-direction: column;
 }
 
-
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
   display: flex;
   margin: 0 .4em;
   justify-content: center;
-  font-size: 1.125;
   margin-bottom: 1rem;
 }
 
-[lang="japanese"] {
+[lang="ja"] {
   font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -120,7 +118,6 @@ h1 span {
   border-bottom: .2rem solid #e2e2e2;
   text-align: center;
   max-width: 30em;
-
 }
 
 .btn {
@@ -155,12 +152,11 @@ main img {
 
 @media only screen and (min-width: 38em) {
 
-
-header {
+  header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
   }
 
   .columns {
@@ -169,8 +165,8 @@ header {
     align-items: center;
   }
 
-}
   h1 {
     align-items: flex-start;
   }
+
 }
